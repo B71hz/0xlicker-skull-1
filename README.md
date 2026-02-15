@@ -8,11 +8,10 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from colorama import init, Fore, Style
 
-# تعطيل تحذيرات SSL
+
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 init(autoreset=True)
 
-# اللوقو: الجمجمة مسحوبة لليسار والنص مقابلها مباشرة
 LOGO = f"""{Fore.RED}
   .......','.                                                   
  .':looodxk0KOOko:'                ▄▄▄▄▄          ▄▄                                  ▄▄ ▄▄ 
